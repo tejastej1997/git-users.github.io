@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond&family=Kanit:wght@500&family=Lora:ital@1&family=Marck+Script&family=Merriweather+Sans&family=Montserrat:ital,wght@0,100;1,300&family=Moon+Dance&family=Nerko+One&family=Noto+Sans:wght@100&family=Open+Sans&family=Orbitron&family=PT+Serif&family=Roboto+Slab:wght@300&family=Satisfy&family=Unbounded&display=swap');
+
+
+.navbar 
+{
+    background: #353b48;  /* fallback for old browsers */
+  
+
+}
+.navbar nav #link
+{
+    text-decoration: none;
+    /* border: 1px solid white; */
+}
+.navbar nav a
+{
+    text-decoration: none;
+}
+.navbar nav #link h2
+{
+    padding: 10px 30px;
+    font-weight: normal;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+.navbar nav
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+#uname 
+{
+    font-weight: bolder;
+    color: #353b48;
+    font-size: 15px;
+  
+}
+
+
+.navbar nav h1
+{
+    font-weight: normal;
+    color: white;
+    font-style: italic;
+}
+
+
+.navbar nav button:not(#searchbtn)
+{
+   padding: 10px 30px;
+   background-color: white;
+   /* border: 1px solid black; */
+   border-radius: 5px;
+   font-size: 18px;
+   font-style: italic;
+   font-family: 'Lora', serif;
+
+   
+}
+
+#favourites
+{
+    display: flex;
+    align-items: center;
+   
+}
+#favourites p
+{
+    margin-left: 5px;
+    border: 1px solid red;
+    padding: 1px 5px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}

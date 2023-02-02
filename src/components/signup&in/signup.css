@@ -1,0 +1,116 @@
+
+.signup-content 
+{
+    position: absolute;
+    box-shadow: 1px 2px 10px  #0c2461;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+
+}
+
+
+.signup 
+{
+    display: flex;
+    justify-content: center;
+   padding: 30px;
+}
+
+.signup  form input:not(#submit)
+{
+    display: block;
+    margin: 10px;
+    outline: none;
+    padding: 10px;
+    width: 300px; 
+    border: 0.5px solid #0c2461;
+    border-radius: 5px; 
+}
+#submit 
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* margin-top: 10px; */
+    padding: 10px 50px;
+    color: white;
+    background-color: #0c2461;
+    border: none;
+    border-radius: 10px;
+}
+
+#signup-link
+{
+    text-align: center;
+    margin-top: 20px;
+}
+#signup-link a
+{
+    text-decoration: none;
+    color: #0c2461;
+}
+.signup-content  .signup form hr
+{
+    color: #0c2461;
+    /* margin-top: 10px; */
+    width: 150px;
+   size: 10px;
+   
+}
+.pass
+{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.pass p
+{
+    position: absolute;
+   right: 8%;
+   cursor: pointer;
+   color: #0c2461;
+
+}
+.division 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-top: 10px ;
+}
+.division p
+{
+    border: 1px solid #0c2461;
+    padding: 0 3px;
+    border-radius: 6px;
+
+}
+          
+
+.google-signin,.contact-signin,.facebook-signin
+{
+    
+    text-align: center;
+    background-color: #0c2461;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+ margin-top: 10px;
+ border: 0.5px solid #0c2461;
+ transition: 0.5s ease-in-out;
+ cursor: pointer;
+
+    
+}
+.google-signin:hover,.contact-signin:hover,.facebook-signin:hover
+{
+    background-color: white;
+    color: #0c2461;
+    border: 0.5px solid #0c2461;
+ transition: 0.5s ease-in-out;
+
+}

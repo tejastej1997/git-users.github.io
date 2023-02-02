@@ -1,0 +1,31 @@
+.followers-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.indi-follower-details
+{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 20px;
+  
+   
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #32ff7e;
+    box-shadow: 2px 2px 20px #6F1E51;
+}
+.indi-follower-details img
+{
+    border-radius: 50%;
+}
+.indi-follower-details h4
+{
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: 'Lora', serif;
+    color: #6F1E51;
+}
